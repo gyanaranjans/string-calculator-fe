@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CalculatorOperation, CalculatorResult } from '@/types/types';
+import { CalculatorOperation } from '@/types/types';
 
 export function useCalculator(calculator: CalculatorOperation) {
     const [input, setInput] = useState("");
