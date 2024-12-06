@@ -1,10 +1,9 @@
-import Link from "next/link";
+import Calculator from "../components/CalculatorUI";
 
 export default function Page() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Link href="/about">About</Link>
+    <div className="flex items-center justify-center h-screen">
+      <Calculator />
     </div>
   );
 }
